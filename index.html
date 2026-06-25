@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Productos personalizados e imagen visual para negocios, eventos y regalos." />
+  <title>Catálogo General de Productos Personalizados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;650;750;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar"><div class="wrap nav"><div class="brand" id="brandName">Catálogo</div><div class="brand"><span id="brandSub">Seattle y alrededores</span></div><nav class="navlinks"><a href="#productos">Productos</a><a href="#proceso">Cómo ordenar</a><a href="admin-local.html" class="btn ghost">Admin local</a><a id="waMain" class="btn" target="_blank" rel="noopener">WhatsApp</a></nav></div></header>
+  <main>
+    <section class="hero"><div class="wrap heroGrid"><div><div class="eyebrow">Catálogo vivo</div><h1 id="heroTitle">Productos personalizados para vender, regalar y recordar.</h1><p id="heroDesc">Productos personalizados e imagen visual para negocios, eventos y regalos, con presentación profesional y lista para usar.</p><div class="heroActions"><a id="waCta" class="btn" target="_blank" rel="noopener">Cotizar por WhatsApp</a><a href="#productos" class="btn alt">Ver productos</a></div><div class="stats"><div class="stat"><strong>Negocios</strong><span>QR, flyers, mini páginas</span></div><div class="stat"><strong>Regalos</strong><span>llaveros, imanes, placas</span></div><div class="stat"><strong>Eventos</strong><span>recuerdos y detalles</span></div></div></div><div class="heroImage"><img id="heroImg" src="assets/productos/hero_portada.jpg" alt="Catálogo de productos personalizados"></div></div></section>
+    <section id="productos" class="section"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">Productos y paquetes</div><h2>Elige una opción para cotizar</h2></div><p id="productCount">Opciones visibles</p></div><div class="searchBox"><input id="search" type="search" placeholder="Buscar: llaveros, QR, flyer, eventos, imanes..." /></div><div id="filters" class="filters"></div><div id="products" class="grid"></div></div></section>
+    <section id="proceso" class="section"><div class="wrap"><div class="sectionHead"><div><div class="eyebrow">Proceso simple</div><h2>Cómo ordenar</h2></div></div><div class="process"><div class="step"><div class="num">1</div><h3>Elige</h3><p>Selecciona producto o paquete del catálogo.</p></div><div class="step"><div class="num">2</div><h3>Envía info</h3><p>Manda nombre, logo, frase, cantidad o idea.</p></div><div class="step"><div class="num">3</div><h3>Confirmamos</h3><p>Revisamos precio, diseño y tiempo de entrega.</p></div><div class="step"><div class="num">4</div><h3>Preparamos</h3><p>Se produce el pedido y se coordina entrega o pickup.</p></div></div></div></section>
+    <section class="cta"><div class="wrap"><div class="ctaBox"><div><h2>¿Quieres cotizar una idea?</h2><p>Envía una descripción breve, cantidad, fecha y cualquier referencia visual. Te ayudo a elegir la opción más práctica.</p></div><a id="waCta2" class="btn" href="https://wa.me/12068801104" target="_blank" rel="noopener">Enviar por WhatsApp</a></div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap">Precios base. El precio final puede cambiar según tamaño, cantidad, diseño, material y urgencia.</div></footer>
+  <script src="assets/js/app.js"></script>
+  <script>document.addEventListener('DOMContentLoaded',()=>setTimeout(()=>{const a=document.getElementById('waCta'); if(a) document.getElementById('waCta2').href=a.href;},500));</script>
+</body>
+</html>
